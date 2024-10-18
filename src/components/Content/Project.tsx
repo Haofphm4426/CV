@@ -66,7 +66,7 @@ const Project = () => {
                 frontend: 'ReactJS, Typescript, Antd',
                 backend: '',
                 member: 1,
-                demo: 'https://cv-lilac.vercel.app/',
+                demo: 'https://cv-haofphm4426s-projects.vercel.app/',
                 github: 'https://github.com/Haofphm4426/CV',
             },
         },
