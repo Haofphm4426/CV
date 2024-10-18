@@ -81,9 +81,13 @@ const LeftPart = ({ showLeftPart, setShowLeftPart, activeTab, setActiveTab }: IP
                 </div>
                 <div className="leftpart_bottom">
                     <div className="social_wrap">
-                        <a href="https://github.com/Haofphm4426" target="_blank" className="icon">
-                            <SiGithub color="white" size={20} />
-                        </a>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Haofphm4426" target="_blank" className="icon">
+                                    <SiGithub color="white" size={30} />
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 {!isMobile && (

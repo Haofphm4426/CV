@@ -448,7 +448,9 @@ img.svg {
                         -o-transition: all 0.3s ease;
                         transition: all 0.3s ease;
                         &:hover {
-                            color: $color_3;
+                            svg {
+                                color: #e3872d !important;
+                            }
                         }
                     }
                 }

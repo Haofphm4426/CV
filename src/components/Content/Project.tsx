@@ -5,6 +5,7 @@ import { MdOutlineRealEstateAgent } from 'react-icons/md';
 import { FaPaperclip } from 'react-icons/fa';
 import { BsArrowRight } from 'react-icons/bs';
 import { Typography } from 'antd';
+import { SiLamborghini } from 'react-icons/si';
 
 const { Title } = Typography;
 
@@ -68,6 +69,19 @@ const Project = () => {
                 member: 1,
                 demo: 'https://cv-haofphm4426s-projects.vercel.app/',
                 github: 'https://github.com/Haofphm4426/CV',
+            },
+        },
+        {
+            image: <SiLamborghini size={50} color={'#f7c853'} />,
+            title: 'Lamborghini Website',
+            shortDescriptions:
+                'A cloned website of Lamborghini, created for coding practice, is a replica of the official Lamborghini site...',
+            details: {
+                frontend: 'HTML5, CSS3, Javascript',
+                backend: '',
+                member: 1,
+                demo: 'https://lamborghini-web.vercel.app/',
+                github: 'https://github.com/Haofphm4426/Lamborghini-Web',
             },
         },
     ];
