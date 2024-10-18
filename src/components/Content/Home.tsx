@@ -1,0 +1,57 @@
+import { TypeAnimation } from 'react-type-animation';
+import avatarHome from '@/assets/img/hero/dev.svg';
+interface IProps {
+    setActiveTab: (value: string) => void;
+}
+const Home = ({ setActiveTab }: IProps) => {
+    return (
+        <div className="arlo_tm_section" id="home" style={{ paddingTop: 0 }}>
+            <div className="arlo_tm_hero_header_wrap">
+                <div className="arlo_tm_universal_box_wrap">
+                    <div className="bg_wrap">
+                        <div className="overlay_image hero jarallax" data-speed="0.1"></div>
+                        <div className="overlay_color hero"></div>
+                    </div>
+                    <div className="content hero">
+                        <div className="inner_content">
+                            <div className="image_wrap">
+                                <img src={avatarHome} alt="hero" />
+                            </div>
+                            <div className="name_holder">
+                                <h3>
+                                    Pham Dai <span>Hao</span>
+                                </h3>
+                            </div>
+                            <div className="text_typing">
+                                <p>
+                                    I'm a &nbsp;
+                                    <TypeAnimation
+                                        sequence={[
+                                            'Backend Developer',
+                                            1000,
+                                            'Frontend Developer',
+                                            1000,
+                                            'Web Developer',
+                                            1000,
+                                        ]}
+                                        wrapper="span"
+                                        speed={50}
+                                        style={{ fontWeight: 'bold' }}
+                                        repeat={Infinity}
+                                    />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="arlo_tm_arrow_wrap bounce anchor">
+                        <a href="#about" onClick={() => setActiveTab('about')}>
+                            <i className="xcon-angle-double-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Home;
