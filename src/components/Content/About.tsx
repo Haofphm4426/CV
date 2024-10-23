@@ -81,7 +81,7 @@ const About = () => {
                                         <li>
                                             <span>
                                                 <label>Mail:</label>{' '}
-                                                <a href="mailto:haofphm4426@gmail.com">haofphm4426&#64;gmail.com</a>
+                                                <a href="mailto:phamdaihao.dev@gmail">phamdaihao.dev&#64;gmail.com</a>
                                             </span>
                                         </li>
                                         <li>
