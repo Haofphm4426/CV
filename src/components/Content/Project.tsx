@@ -34,11 +34,11 @@ const Project = () => {
     const dataProjects: IProject[] = [
         {
             image: <FcTodoList size={50} color={'#2bebfd'} />,
-            title: 'ToDoList',
+            title: 'TodoList',
             shortDescriptions:
                 'ToDoList is a project management tool that allows team members to organize tasks, workflows, and projects...',
             details: {
-                frontend: 'ReactJS(Hook, Redux Toolkit, React-Router-DOM), Axios, Bootstrap',
+                frontend: 'ReactJS(Hook, Redux Toolkit, React-Router-DOM), Axios, MaterialUI',
                 backend: 'ExpressJS, MongoDB, SocketIO, Redis, Cloudinary ',
                 member: 1,
                 demo: '',
