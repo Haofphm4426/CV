@@ -103,15 +103,6 @@ const About = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="buttons_wrap">
-                                    <ul>
-                                        <li>
-                                            <a href={CV} download>
-                                                <span>Download CV</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>
